@@ -58,7 +58,6 @@ var appModel = (function () {
     /* Move a piece. Returns a deffered object that the control can chain on */
     var privateMovePiece = function(from, to) {
         var postData = {
-            gameId : state.gameId,
             playerId : state.playerId,
             fromX : from.x,
             fromY : from.y,
